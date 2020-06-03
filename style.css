@@ -1,0 +1,103 @@
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(80, 79, 79);
+}
+#logo{
+    height: 150px;
+    position: relative;
+    bottom: 25px;
+}
+
+.li{
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 25px;
+    margin: 5px;
+    color: orange;
+}
+
+.img-header{
+    height: 25px;
+    width: 25px;
+}
+
+.img-size{
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+
+.h2{
+    margin-left: 400px;
+}
+table{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    margin: 0px;
+    font-family: monospace;
+    background-color: rgb(214, 210, 210);
+}
+.form{
+    display: inline-block;
+    position: fixed;
+    right: 100px;
+    height: 400px;
+    width: 375px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: small;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: rgb(214, 210, 210);
+}
+
+.tk{
+    width: 600px;
+    height: 200px;
+    padding-top: 25px;
+    text-align: center;
+    position: relative;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 26, 66);
+    background-color: rgb(214, 210, 210);
+}
+
+.galeri{
+    position: relative;
+    left: 75px;
+    width: 600px;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    background-color: rgb(80, 79, 79);
+    height: 25px;
+    padding: 20px;
+    margin: 0px;
+}
+    
+.text-center{
+    text-align: center;
+    position: relative;
+    left: 275px;
+    font-family: cursive;
+    color: rgb(26, 26, 66);
+    background-color: rgb(214, 210, 210);
+    height: 200px;
+    width: 800px;
+    padding-top: 50px;
+}
