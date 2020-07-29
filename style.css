@@ -1,13 +1,14 @@
 
 body{
     margin: 0;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 header{
     height: 100px;
     width: 100%;
     background-color: rgb(80, 79, 79);
+    /* position: fixed; */
 }
 #logo{
     height: 150px;
@@ -16,7 +17,7 @@ header{
 }
 
 .li{
-    display: inline-block;
+    display: block;
     float: right;
     position: relative;
     top: 15px;
@@ -51,6 +52,7 @@ table{
 .form{
     display: inline-block;
     position: fixed;
+    bottom: 110px;
     right: 100px;
     height: 400px;
     width: 375px;
@@ -100,4 +102,11 @@ h4{
     height: 200px;
     width: 800px;
     padding-top: 50px;
+}
+
+.lokasi{
+    position: relative;
+    left: 100px;
+    font-size: 30px;
+    margin-right: 670px;
 }
